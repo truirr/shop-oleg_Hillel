@@ -1,16 +1,24 @@
-# React + Vite
+# Інтернет-магазин техніки (ShopOleg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Опис
+Це курсовий проєкт, створений з використанням React та Redux Toolkit. 
+Додаток імітує інтернет-магазин з можливістю перегляду товарів, пошуку та додавання у кошик.
 
-Currently, two official plugins are available:
+## Функціонал
+- Відображення списку товарів
+- Пошук товарів
+- Додавання товарів у кошик
+- Зміна кількості товарів
+- Видалення товарів з кошика
+- Підрахунок загальної суми
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Технології
+- React
+- Redux Toolkit
+- React Router
+- Vite
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Встановлення та запуск
+```bash
+npm install
+npm run dev
